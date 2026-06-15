@@ -1,5 +1,13 @@
 [
   {
+    "title": "Danga",
+    "category": "Bengali Movie",
+    "icon": "fa-solid fa-film",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781557029178.jpg",
+    "rating": "0.0",
+    "link": "5.3"
+  },
+  {
     "title": "Danga 1994",
     "category": "Bollywood 90s Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781556801473.jpg",
