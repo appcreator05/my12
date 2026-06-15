@@ -1,5 +1,12 @@
 [
   {
+    "title": "Jaan Tere Naam",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781528011414.jpg",
+    "rating": "5.3",
+    "link": "go:mm2"
+  },
+  {
     "title": "Tere Naam",
     "category": "Bengali Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781526370660.jpg",
