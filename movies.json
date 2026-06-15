@@ -4,7 +4,7 @@
     "category": "Korean Hindi Dubbed",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781554589813.jpg",
     "rating": "5.1",
-    "link": "go:mm40"
+    "link": "go:mm41"
   },
   {
     "title": "Cheekatilo",
@@ -224,11 +224,11 @@
     "link": "go:mm8"
   },
   {
-    "title": "Gridiron Gang",
+    "title": "Hai Jawani Toh Ishq Hona",
     "category": "Hollywood Hindi Dubbed",
-    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781549768277.jpg",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781549033185.jpg",
     "rating": "7.1",
-    "link": "go:mm8"
+    "link": "go:mm4"
   },
   {
     "title": "Gridiron Gang",
@@ -272,12 +272,4 @@
     "rating": "6.8",
     "link": "go:mm1"
   },
-  {
-    "title": "Hai Jawani Toh Ishq Hona Hai 2026",
-    "category": "Bollywood Hindi Movie",
-    "icon": "fa-solid fa-film",
-    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781549033185.jpg",
-    "link": "go:mm4",
-    "rating": "0.0"
-  }
 ]
