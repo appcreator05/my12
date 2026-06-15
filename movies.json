@@ -116,5 +116,13 @@
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781538655699.jpg",
     "rating": "0.0",
     "link": "go:mm1"
+  },
+  {
+    "title": "test5",
+    "category": "Bengali Movie",
+    "icon": "fa-solid fa-music",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781539139506.jpg",
+    "link": "go:mm3",
+    "rating": "0.0"
   }
 ]
