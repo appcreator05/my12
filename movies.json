@@ -132,5 +132,12 @@
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781539191796.jpg",
     "link": "go:mm3",
     "rating": "0.0"
+  },
+  {
+    "title": "test7",
+    "category": "Music",
+    "icon": "fa-solid fa-music",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781539426461.jpg",
+    "link": "go:mm3"
   }
 ]
