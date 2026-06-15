@@ -139,5 +139,12 @@
     "icon": "fa-solid fa-music",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781539426461.jpg",
     "link": "go:mm3"
+  },
+  {
+    "title": "game test",
+    "category": "Game",
+    "icon": "fa-solid fa-gamepad",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781541488802.jpg",
+    "link": "go:mm1"
   }
 ]
