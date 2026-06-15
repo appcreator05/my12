@@ -92,5 +92,13 @@
     "category": "Bollywood Hindi Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781520527668.jpg",
     "rating": "6.9"
+  },
+  {
+    "title": "test",
+    "category": "Web Series",
+    "icon": "fa-solid fa-gamepad",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781537018784.jpg",
+    "rating": "0.0",
+    "link": "go:mm1"
   }
 ]
