@@ -1,5 +1,12 @@
 [
   {
+    "title": "Fashion",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781721479536.jpg",
+    "rating": "6.4",
+    "link": "go:mm51"
+  },
+  {
     "title": "Kesong Puti",
     "category": "Tagalog Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781721384897.jpg",
