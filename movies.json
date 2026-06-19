@@ -1,5 +1,12 @@
 [
   {
+    "title": "Agnee 2",
+    "category": "Bengali Movie",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781903811220.jpg",
+    "rating": "5.0",
+    "link": "go:mm193"
+  },
+  {
     "title": "Mufasa: The Lion King",
     "category": "Cartoon Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781903680852.jpg",
