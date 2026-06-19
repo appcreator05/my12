@@ -1,5 +1,12 @@
 [
   {
+    "title": "L: Lakad",
+    "category": "Tagalog Movie",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781855608731.jpg",
+    "rating": "8.0",
+    "link": "go:mm147"
+  },
+  {
     "title": "Sitaare Zameen Par",
     "category": "Bollywood Hindi Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781855504286.jpg",
