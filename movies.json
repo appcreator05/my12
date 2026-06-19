@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mufasa: The Lion King",
+    "category": "Cartoon Movie",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781903680852.jpg",
+    "rating": "7.3",
+    "link": "go:mm192"
+  },
+  {
     "title": "Haan Maine Bhi Pyaar Kiya",
     "category": "Bollywood Hindi Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781903589145.jpg",
