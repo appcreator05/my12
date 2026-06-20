@@ -1,5 +1,12 @@
 [
   {
+    "title": "Violet",
+    "category": "Tagalog Movie",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781988541113.jpg",
+    "rating": "6.4",
+    "link": "go:mm202"
+  },
+  {
     "title": "Jaat",
     "category": "Bollywood Hindi Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1781988319168.jpg",
