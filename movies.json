@@ -1,5 +1,12 @@
 [
   {
+    "title": "Company",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1782077756294.jpg",
+    "rating": "7.0",
+    "link": "go:mm241"
+  },
+  {
     "title": "The Buckingham Murders",
     "category": "Bollywood Hindi Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1782077646710.jpg",
