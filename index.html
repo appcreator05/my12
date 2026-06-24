@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>VDOSky.in - Movie Gallery</title>
+    <style>
+        body { background-color: #000; color: #fff; font-family: sans-serif; margin: 0; padding: 10px; }
+        #categorySelect { width: 100%; padding: 12px; background: #1a1a1a; color: white; border: 1px solid #333; border-radius: 8px; margin-bottom: 20px; outline: none; }
+        .gallery-grid { display: grid; gap: 10px; grid-template-columns: repeat(3, 1fr); }
+        @media (min-width: 500px) { .gallery-grid { grid-template-columns: repeat(4, 1fr); } }
+        @media (min-width: 768px) { .gallery-grid { grid-template-columns: repeat(5, 1fr); } }
+        .movie-card { position: relative; background: #1a1a1a; border-radius: 8px; overflow: hidden; transition: 0.3s; display: flex; flex-direction: column; }
+        .movie-card:hover { transform: scale(1.03); }
+        .movie-card img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; display: block; }
+        .rating-badge { position: absolute; top: 5px; right: 5px; background: rgba(0, 0, 0, 0.7); color: #ffc107; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: bold; border: 1px solid #ffc107; z-index: 1; }
+        .movie-title-container { width: 100%; padding: 8px 5px; overflow: hidden; white-space: nowrap; box-sizing: border-box; }
+        .movie-title { display: inline-block; padding-left: 100%; animation: marquee 10s linear infinite; font-size: 11px; }
+        @keyframes marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -5px;
+}
+
+#categorySelect {
+    flex: 1;
+}
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 250px;
+    height: 100%;
+    background: #111;
+    transition: 0.3s;
+    z-index: 9999;
+    padding-top: 60px;
+}
+
+/* Sidebar Links */
+#sidebar a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+}
+
+/* Menu Button */
+#menuBtn {
+    font-size: 22px;
+    background: #1a1a1a;
+    padding: 5px 5px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    cursor: pointer;
+	margin-top: -20px;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+<!-- ✅ Sidebar -->
+<div id="sidebar">
+<div class="close-btn" onclick="toggleSidebar()">✖</div>
+    <a href="#">🏠 Home</a>
+    <a href="#">💎 Subscription</a>
+    <a href="http://action_share">➤ Share</a>
+    <a href="https://contact2.me/Rbue0m">💬 Comment</a>
+</div>
+
+
+<!-- সার্চ বার কনটেইনার -->
+<div id="searchContainer" style="display: none; position: fixed; top: 10px; left: 5%; width: 90%; z-index: 10000;">
+    <input type="text" id="searchInput" placeholder="Search movies..." onkeyup="filterMovies()" 
+        style="width: 100%; padding: 15px; padding-right: 50px; background: #14e3d0; color: #040404; border: 1px solid #444; border-radius: 25px; box-sizing: border-box; outline: none;">
+    
+    <!-- Close (X) Button -->
+    <span onclick="toggleSearch()" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); cursor: pointer; color: black; font-weight: bold; font-size: 20px;">
+        ✕
+    </span>
+</div>
+
+<!-- Bottom Fixed Search Icon -->
+<div id="searchToggle" onclick="toggleSearch()" 
+    style="position: fixed; bottom: 20px; right: 20px; width: 45px; height: 45px; background: #ff9800; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; color: white; cursor: pointer; z-index: 9999; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+    🔍
+</div>
+	<div class="top-bar">
+    <div id="menuBtn" onclick="toggleSidebar()">☰</div>
+
+    <select id="categorySelect" onchange="filterMovies()">
+            <option value="All">All Categories</option>
+ <option value="Bollywood 90s Movie">Bollywood 90s Movie</option>
+    <option value="Bollywood Classic Movie">Bollywood Classic Movie</option>
+    <option value="Bollywood Hindi Movie">Bollywood Hindi Movie</option>
+    <option value="Hollywood English Dubbed">Hollywood English Dubbed</option>
+    <option value="Hollywood Hindi Dubbed">Hollywood Hindi Dubbed</option>
+    <option value="Horror Hindi Dubbed">Horror Hindi Dubbed</option>
+    <option value="Korean Hindi Dubbed">Korean Hindi Dubbed</option>
+    <option value="Marathi Movie">Marathi Movie</option>
+    <option value="South Indian_Hindi">South Indian Hindi</option>
+    <option value="Tagalog Movie">Tagalog Movie</option>
+    <option value="Virtual Music">Virtual Music</option>
+    <option value="Web Series">Web Series</option>
+    <option value="Bengali Movie">Bengali Movie</option>
+    <option value="Bhakti Movie">Bhakti Movie</option>
+    <option value="Albums">Albums</option>
+    <option value="Bengali Mp3">Bengali Mp3</option>
+    <option value="Bhakti Sangeet">Bhakti Sangeet</option>
+    <option value="Bhojpuri">Bhojpuri</option>
+    <option value="Bhojpuri Songs">Bhojpuri Songs</option>
+    <option value="Cartoon Movie">Cartoon Movie</option>
+    <option value="Hindi 80s Songs">Hindi 80s Songs</option>
+    <option value="Hindi 90s Songs">Hindi 90s Songs</option>
+    <option value="Hindi Classic Songs">Hindi Classic Songs</option>
+    <option value="Hindi Songs">Hindi Songs</option>
+    <option value="Mp3 Songs">Mp3 Songs</option>
+    <option value="Punjabi Movie">Punjabi Movie</option>
+    <option value="South Songs">South Songs</option>
+    </select>
+</div>
+    <div class="gallery-grid" id="movieGallery">Please Wait...</div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <script>
+    function getDeviceId() {
+    let id = localStorage.getItem("device_id");
+    if (!id) {
+        id = "dev_" + Math.random().toString(36).substr(2, 9);
+        localStorage.setItem("device_id", id);
+    }
+    return id;
+}
+        const firebaseConfig = {
+            apiKey: "AIzaSyCyDd6rCV7WaQe8sMF0Xmob3dpm6z6wEEQ",
+            authDomain: "myapps-4a8eb.firebaseapp.com",
+            databaseURL: "https://myapps-4a8eb-default-rtdb.firebaseio.com",
+            projectId: "myapps-4a8eb",
+            storageBucket: "myapps-4a8eb.appspot.com",
+            messagingSenderId: "342267842050",
+            appId: "1:342267842050:web:4749870bb18b05ed94611b"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.database();
+
+        let allMovies = [];
+        let currentIndex = 20; 
+        let currentMovies = [];
+
+        // --- IndexedDB Logic ---
+        const dbName = "MovieAppDB";
+        const storeName = "movies";
+        let indexedDBInstance;
+
+        function openDatabase() {
+            return new Promise((resolve) => {
+                const request = indexedDB.open(dbName, 1);
+                request.onupgradeneeded = (e) => {
+                    e.target.result.createObjectStore(storeName, { keyPath: "title" });
+                };
+                request.onsuccess = (e) => {
+                    indexedDBInstance = e.target.result;
+                    resolve();
+                };
+            });
+        }
+
+        async function fetchMovies() {
+            await openDatabase();
+            // Local Cache Load
+            const tx = indexedDBInstance.transaction(storeName, "readonly");
+            const store = tx.objectStore(storeName);
+            const request = store.getAll();
+            request.onsuccess = () => {
+                if (request.result.length > 0) {
+                    allMovies = request.result;
+                    renderMovies(allMovies);
+                }
+            };
+
+            // Server Update
+            try {
+                const response = await fetch(`https://raw.githubusercontent.com/appcreator05/my12/main/movies.json?t=${new Date().getTime()}`);
+                const data = await response.json();
+                allMovies = data;
+                
+                const writeTx = indexedDBInstance.transaction(storeName, "readwrite");
+                const writeStore = writeTx.objectStore(storeName);
+                writeStore.clear();
+                data.forEach(m => writeStore.put(m));
+                
+                renderMovies(allMovies);
+            } catch (err) { console.log("Offline Mode"); }
+        }
+
+        
+function checkKey() {
+    const inputKey = document.getElementById('subKey').value.trim();
+    const now = new Date().getTime();
+    const deviceId = getDeviceId();
+
+    db.ref("passwords").orderByChild("password").equalTo(inputKey).once("value", snapshot => {
+
+        if (!snapshot.exists()) {
+            alert("Invalid Key!");
+            return;
+        }
+
+        snapshot.forEach(child => {
+            const data = child.val();
+
+            if (data.expireAt < now) {
+                alert("Key Expired!");
+                return;
+            }
+
+            if (data.used && data.device_id !== deviceId) {
+                alert("Key already used on another device!");
+                return;
+            }
+
+            // ✅ Activate for this device
+            db.ref("passwords/" + child.key).update({
+                used: true,
+                device_id: deviceId
+            });
+
+            alert("Subscription Active!");
+            window.location.href = "go:actived";
+        });
+
+    });
+}
+
+        function showSubscriptionPopup() {
+            const popup = document.createElement('div');
+            popup.id = "subPopup";
+            popup.style.cssText = "position:fixed; top:0; left:0; width:auto; height:100%; background:rgba(0,0,0,0.95); z-index:9999; display:flex; align-items:center; justify-content:center; padding:10px;";
+            popup.innerHTML = `<div style="width:100%; max-width:350px; background:#000; padding:25px; border-radius:15px; border:2px solid #333; text-align:center;">
+                <h2 style="color:#ffc107;">Premium Access</h2>
+                <button onclick="window.open('https://appcreator05.blogspot.com/p/paymant-app.html', '_blank')" style="background:#ff0000; color:white; padding:15px; width:100%; border:none; border-radius:50px; margin-bottom:15px; cursor:pointer;"><b><i class="fa fa-shopping-cart" style="font-size:24px"></i> Buy Subscription Key</b></button>
+                <input type="text" id="subKey" placeholder="INPUT SUBSCRIPTION KEY" style="padding:15px; width:85%; margin-bottom:15px; border-radius:10px; border:none; text-align:center;">
+                <button onclick="checkKey()" style="background:#ff9800; color:black; padding:15px; width:100%; border:none; border-radius:50px; margin-bottom:15px; cursor:pointer;">ACTIVE SUBSCRIPTION</button>
+                <button onclick="document.getElementById('subPopup').remove()" style="background:transparent; color:#fff; border:1px solid #555; padding:10px; width:100%; cursor:pointer;">Close</button>
+            </div>`;
+            document.body.appendChild(popup);
+        }
+
+        // --- Gallery UI Functions ---
+
+function renderMovies(moviesToRender, isLoadMore = false) {
+    const gallery = document.getElementById('movieGallery');
+    
+    if (!isLoadMore) {
+        gallery.innerHTML = "";
+        currentIndex = 20;
+        
+        // এখানে শুধু 'moviesToRender' ব্যবহার করুন
+        let dailyPosts = moviesToRender.slice(0, 5); 
+        let oldPosts = moviesToRender.slice(5);
+
+        // Shuffle logic (পুরানো কোড অনুযায়ী)
+        for (let i = oldPosts.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [oldPosts[i], oldPosts[j]] = [oldPosts[j], oldPosts[i]];
+        }
+        currentMovies = [...dailyPosts, ...oldPosts];
+    }
+
+    // কার্ড রেন্ডারিং এর লজিক আগের মতোই থাকবে
+    currentMovies.slice(isLoadMore ? currentIndex - 20 : 0, currentIndex).forEach(m => {
+        const card = document.createElement('div');
+        card.className = 'movie-card';
+        card.onclick = () => {
+    isSubscribed((status) => {
+        if (status) {
+            showOverlay(m.link);
+        } else {
+            showSubscriptionPopup();
+        }
+    });
+};
+        card.innerHTML = `<span class="rating-badge">★ ${m.rating || '0.0'}</span><img src="${m.poster}" loading="lazy"><div class="movie-title-container"><div class="movie-title">${m.title}</div></div>`;
+        gallery.appendChild(card);
+    });
+}
+
+        window.onscroll = () => {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500 && currentIndex < currentMovies.length) {
+                currentIndex += 20;
+                renderMovies(allMovies, true);
+            }
+        };
+
+        function showOverlay(link) { window.location.href = link; }
+        function filterMovies() {
+    const cat = document.getElementById('categorySelect').value;
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    
+    // ক্যাটাগরি এবং সার্চ দুটির ওপর ভিত্তি করে ফিল্টার করা
+    const filteredList = allMovies.filter(m => {
+        const matchesCategory = (cat === "All" || m.category === cat);
+        const matchesSearch = (m.title.toLowerCase().includes(searchTerm));
+        return matchesCategory && matchesSearch;
+    });
+
+    renderMovies(filteredList);
+}
+
+        fetchMovies();
+window.onload = () => {
+    isSubscribed((status) => {
+        console.log("Subscription:", status);
+    });
+};
+
+function showOverlay(link) {
+    // ১. ওভারলে তৈরি করা
+    const overlay = document.createElement('div');
+    overlay.id = "myOverlay"; // একটি আইডি দিলাম যাতে পরে খুঁজে পাওয়া যায়
+    overlay.style.cssText = "position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.95); display:flex; justify-content:center; align-items:center; z-index:9999; color:#fff; font-size:24px; font-weight:bold; font-family:sans-serif;";
+    overlay.innerHTML = "Please Wait...";
+    document.body.appendChild(overlay);
+
+    // ২. ২ সেকেন্ড পর লিংক ওপেন করা
+    setTimeout(() => {
+        window.location.href = link;
+    }, 2000);
+
+    // ৩. ৫ সেকেন্ড পর নিশ্চিতভাবে ওভারলেটি রিমুভ করা (যদি পেজ লোড হতে দেরি হয়)
+    setTimeout(() => {
+        const el = document.getElementById('myOverlay');
+        if (el) el.remove();
+    }, 5000);
+}
+
+
+function toggleSearch() {
+    const searchContainer = document.getElementById('searchContainer');
+    const searchInput = document.getElementById('searchInput');
+    const searchToggle = document.getElementById('searchToggle');
+
+    if (searchContainer.style.display === 'none') {
+        searchContainer.style.display = 'block';
+        searchToggle.style.display = 'none'; // সার্চ ওপেন হলে নিচের আইকন হাইড হবে
+        searchInput.focus();
+    } else {
+        searchContainer.style.display = 'none';
+        searchToggle.style.display = 'flex'; // সার্চ বন্ধ হলে নিচের আইকন আবার আসবে
+        
+        // সার্চ বন্ধ করলে ফিল্টার রিসেট করা
+        searchInput.value = "";
+        filterMovies();
+    }
+}
+
+function isSubscribed(callback) {
+    const now = new Date().getTime();
+    const deviceId = getDeviceId();
+
+    db.ref("passwords").once("value", snapshot => {
+        let valid = false;
+
+        snapshot.forEach(child => {
+            const data = child.val();
+
+            if (
+                data.expireAt > now &&
+                data.used === true &&
+                data.device_id === deviceId
+            ) {
+                valid = true;
+            }
+        });
+
+        callback(valid);
+    });
+}
+
+function toggleSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    sidebar.style.left = (sidebar.style.left === "0px") ? "-250px" : "0px";
+}
+
+document.addEventListener("click", function(e) {
+    const sidebar = document.getElementById("sidebar");
+    const menuIcon = document.querySelector(".menu-icon");
+
+    if (!sidebar.contains(e.target) && !menuIcon.contains(e.target)) {
+        sidebar.style.left = "-250px";
+    }
+});
+
+// Sidebar open/close
+const sidebar = document.getElementById("sidebar");
+const menuBtn = document.getElementById("menuBtn");
+
+menuBtn.onclick = function () {
+    if (sidebar.style.left === "0px") {
+        sidebar.style.left = "-260px";
+    } else {
+        sidebar.style.left = "0px";
+    }
+};
+
+// click outside = close
+document.addEventListener("click", function(e) {
+    if (!sidebar.contains(e.target) && !menuBtn.contains(e.target)) {
+        sidebar.style.left = "-260px";
+    }
+});
+    </script>
+</body>
+</html>
