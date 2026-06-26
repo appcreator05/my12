@@ -1,40 +1,5 @@
 [
   {
-    "title": "Citizen Vigilante",
-    "category": "Bollywood Classic Movie",
-    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782507214100.jpg",
-    "rating": "6.9",
-    "link": "on"
-  },
-  {
-    "title": "Scary Movie",
-    "category": "Bollywood 90s Movie",
-    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782505511147.jpg",
-    "rating": "5.5",
-    "link": "test4"
-  },
-  {
-    "title": "Obsession",
-    "category": "Bollywood 90s Movie",
-    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782505307478.jpg",
-    "rating": "7.9",
-    "link": "test3"
-  },
-  {
-    "title": "Little Brother",
-    "category": "Bollywood Hindi Movie",
-    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782504379172.jpg",
-    "rating": "7.6",
-    "link": "text2"
-  },
-  {
-    "title": "Supergirl",
-    "category": "Hollywood Hindi Dubbed",
-    "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1782502632533.jpg",
-    "rating": "6.3",
-    "link": "test"
-  },
-  {
     "title": "Charanon Ki Saugandh",
     "category": "Bollywood Classic Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1782493623626.jpg",
