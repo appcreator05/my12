@@ -1,32 +1,5 @@
 [
   {
-    "title": "Little Brother",
-    "category": "Bollywood 90s Movie",
-    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782509109685.jpg",
-    "rating": "7.1",
-    "cast": "John Cena, Eric André, Michelle Monaghan, Christopher Meloni, Sherry Cola, Ego Nwodim, Caleb Hearon, Bryce Gheisar, Pilot Bunch, Ben Ahlers",
-    "link": "test cast"
-  },
-  {
-    "title": "Supergirl",
-    "category": "Bollywood 90s Movie",
-    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782508657241.jpg",
-    "rating": "6.3",
-    "cast": [
-      "Milly Alcock",
-      "Eve Ridley",
-      "Matthias Schoenaerts",
-      "Jason Momoa",
-      "David Krumholtz",
-      "Emily Beecham",
-      "David Corenswet",
-      "Ferdinand Kingsley",
-      "Emily Piggford",
-      "Thalissa Teixeira"
-    ],
-    "link": "test cast"
-  },
-  {
     "title": "Charanon Ki Saugandh",
     "category": "Bollywood Classic Movie",
     "poster": "https://raw.githubusercontent.com/appcreator05/my12/main/images/1782493623626.jpg",
