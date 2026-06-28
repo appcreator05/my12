@@ -1,5 +1,12 @@
 [
   {
+    "title": "Ajay",
+    "category": "Bollywood 90s Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782654709513.jpg",
+    "rating": "7.1",
+    "link": "go:mm342"
+  },
+  {
     "title": "Jis Desh Mein Ganga Rehta Hai",
     "category": "Bollywood Hindi Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782654620390.jpg",
