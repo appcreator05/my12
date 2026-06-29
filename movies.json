@@ -1,6 +1,13 @@
 [
   {
     "title": "Har Har Gange",
+    "category": "Bhakti Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782756614115.jpg",
+    "rating": "7.0",
+    "link": "go:mm454"
+  },
+  {
+    "title": "Har Har Gange",
     "category": "Bengali Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782756602515.jpg",
     "rating": "7.0",
