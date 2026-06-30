@@ -1,5 +1,12 @@
 [
   {
+    "title": "Hungama 2",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782840242699.jpg",
+    "rating": "4.6",
+    "link": "go:mm504"
+  },
+  {
     "title": "Pamasahe",
     "category": "Tagalog Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1782840146167.jpg",
