@@ -1,5 +1,13 @@
 [
- {
+  {
+    "title": "Anusandhan",
+    "category": "Bengali Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783357863990.jpg",
+    "rating": "6.1",
+    "link": "go:mm558",
+    "cast": "Amitabh Bachchan, Rakhee Gulzar, Amjad Khan, Abhi Bhattacharya, Utpal Dutt"
+  },
+  {
     "title": "Pushpa 2 The Rule",
     "category": "Shouth Hindi Dubbed",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/Pushpa 2.jpg",
@@ -4448,5 +4456,4 @@
     "link": "go:mm1",
     "cast": "Robert Cummings, Richard Basehart, Richard Hart, Arlene Dahl, Arnold Moss"
   }
-
 ]
