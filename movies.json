@@ -1,5 +1,13 @@
 [
   {
+    "title": "Jolly LLB",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783365559597.jpg",
+    "rating": "7.1",
+    "link": "go:mm568",
+    "cast": "Arshad Warsi, Boman Irani, Saurabh Shukla, Amrita Rao, Harsh Chhaya"
+  },
+  {
     "title": "Bal Ganesh 2",
     "category": "Cartoon Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783365450308.jpg",
