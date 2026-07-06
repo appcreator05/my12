@@ -1,13 +1,5 @@
 [
   {
-    "title": "Anusandhan",
-    "category": "Bengali Movie",
-    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783358576032.jpg",
-    "rating": "6.1",
-    "link": "image link",
-    "cast": "Amitabh Bachchan, Rakhee Gulzar, Amjad Khan, Abhi Bhattacharya, Utpal Dutt"
-  },
-  {
     "title": "Love Lies Bleeding",
     "category": "Hollywood English Dubbed",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783358370882.jpg",
@@ -82,7 +74,7 @@
   {
     "title": "A Aa",
     "category": "South Indian_Hindi",
-    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783324350340.jpg",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783358576032.jpg",
     "rating": "6.5",
     "link": "go:mm552",
     "cast": "Nithiin, Samantha Ruth Prabhu, Anupama Parameswaran, Naresh, Nadhiya"
