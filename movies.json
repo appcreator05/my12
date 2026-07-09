@@ -1,5 +1,13 @@
 [
   {
+    "title": "Amanush",
+    "category": "Bengali Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783615880003.jpg",
+    "rating": "6.5",
+    "link": "go:mm588",
+    "cast": "Soham Chakraborty, Srabanti Chatterjee, Biswajit Chakraborty, Saswata Chatterjee, Prodip Dhar"
+  },
+  {
     "title": "Bojhena Shey Bojhena",
     "category": "Bengali Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783615787849.jpg",
