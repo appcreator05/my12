@@ -1,5 +1,13 @@
 [
   {
+    "title": "Welcome to the Jungle",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783600992826.jpg",
+    "rating": "5.0",
+    "link": "go:mm577",
+    "cast": "Akshay Kumar, Suniel Shetty, Arshad Warsi, Jacqueline Fernandez, Disha Patani"
+  },
+  {
     "title": "Reunited Worlds S01",
     "category": "Web Series",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/Reunited.jpg",
