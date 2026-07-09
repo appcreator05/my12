@@ -1,5 +1,13 @@
 [
   {
+    "title": "Challenge",
+    "category": "Bengali Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783615687888.jpg",
+    "rating": "3.7",
+    "link": "go:mm586",
+    "cast": "Dev, Subhashree Ganguly, Rajatabha Dutta, Supriyo Dutta, Parthasarathi Chakraborty"
+  },
+  {
     "title": "Manik",
     "category": "Bengali Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783615582691.jpg",
