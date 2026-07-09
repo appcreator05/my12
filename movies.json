@@ -1,5 +1,13 @@
 [
   {
+    "title": "Gandu",
+    "category": "Bengali Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783614698357.jpg",
+    "rating": "5.4",
+    "link": "go:mm580",
+    "cast": "Anubrata Basu, Joyraj Bhattacharjee, Rii Sen, Kamalika Banerjee, Silajit Majumder"
+  },
+  {
     "title": "Red Alert: The War Within",
     "category": "Bollywood Hindi Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783614595130.jpg",
