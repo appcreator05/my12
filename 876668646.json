@@ -1,5 +1,13 @@
 [
   {
+    "title": "Hamara Dil Aapke Paas Hai",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784668782675.jpg",
+    "rating": "5.5",
+    "link": "go:mm604",
+    "cast": "Anil Kapoor, Aishwarya Rai Bachchan, Sonali Bendre, Puru Raaj Kumar, Anupam Kher"
+  },
+  {
     "title": "Chhota Chetan",
     "category": "Bollywood 90s Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784668654243.jpg",
