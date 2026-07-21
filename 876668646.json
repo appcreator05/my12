@@ -1,5 +1,13 @@
 [
   {
+    "title": "Pet Pyaar Aur Paap",
+    "category": "Bollywood Classic Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784669467360.jpg",
+    "rating": "5.5",
+    "link": "go:mm605",
+    "cast": "Raj Babbar, Smita Patil, Tanuja Samarth, Aruna Irani, Amitabh Bachchan"
+  },
+  {
     "title": "Hamara Dil Aapke Paas Hai",
     "category": "Bollywood Hindi Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784668782675.jpg",
