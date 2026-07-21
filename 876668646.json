@@ -1,11 +1,19 @@
 [
   {
+    "title": "Purvanchal S01 2024",
+    "category": "Web Series",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784668493303.jpg",
+    "rating": "5.5",
+    "link": "go:mm602",
+    "cast": "Amrapali Dubey, Awdhesh Mishra, Dinesh Lal Yadav, Govind Namdev"
+  },
+  {
     "title": "Im falschen Leben",
     "category": "Web Series",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784668369962.jpg",
     "rating": "5.9",
     "link": "go:mm602",
-    "cast": "Sonsee Neu, Anna Maria M�he, Maxim Mehmet, Andreas Lust, Judith D�ker"
+    "cast": "Sonsee Neu, Anna Maria Mühe, Maxim Mehmet, Andreas Lust, Judith Döker"
   },
   {
     "title": "Bholaa",
@@ -213,7 +221,7 @@
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/Reunited.jpg",
     "rating": "8.0",
     "link": "go:mm576",
-    "cast": "Jean-Philippe Labadie, Hjálmar Hjálmarsson, Elva Ósk Ólafsdóttir, Björn Karlsson, Eggert Þorleifsson"
+    "cast": "Jean-Philippe Labadie, HjÃ¡lmar HjÃ¡lmarsson, Elva Ãsk ÃlafsdÃ³ttir, BjÃ¶rn Karlsson, Eggert Ãorleifsson"
   },
   {
     "title": "Udta Punjab",
@@ -341,7 +349,7 @@
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783358241928.jpg",
     "rating": "6.4",
     "link": "go:mm560",
-    "cast": "RenÃ©e Zellweger, Colin Firth, Patrick Dempsey, Jim Broadbent, Gemma Jones"
+    "cast": "RenÃÂ©e Zellweger, Colin Firth, Patrick Dempsey, Jim Broadbent, Gemma Jones"
   },
   {
     "title": "Andha Bichar",
