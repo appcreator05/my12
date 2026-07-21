@@ -1,5 +1,13 @@
 [
   {
+    "title": "Bholaa",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784668175067.jpg",
+    "rating": "5.9",
+    "link": "go:mm601",
+    "cast": "Ajay Devgn, Tabu, Deepak Dobriyal, Amala Paul, Sanjay Mishra"
+  },
+  {
     "title": "Mere Do Anmol Ratan",
     "category": "Bollywood Hindi Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1783617676875.jpg",
