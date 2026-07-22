@@ -1,5 +1,13 @@
 [
   {
+    "title": "Talash",
+    "category": "Bollywood Classic Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784745448615.jpg",
+    "rating": "8.0",
+    "link": "go:mm632",
+    "cast": "Rajendra Kumar, Helen, Madan Puri, Mumtaz Begum, Sulochana Latkar"
+  },
+  {
     "title": "Rang",
     "category": "Bollywood 90s Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784745351798.jpg",
