@@ -1,5 +1,13 @@
 [
   {
+    "title": "Jaan",
+    "category": "Bollywood 90s Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784743095675.jpg",
+    "rating": "6.1",
+    "link": "go:mm620",
+    "cast": "Ajay Devgn, Twinkle Khanna, Amrish Puri, Saeed Jaffrey, Aruna Irani"
+  },
+  {
     "title": "Saugandh",
     "category": "Bollywood 90s Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784743014202.jpg",
