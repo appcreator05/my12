@@ -1,5 +1,13 @@
 [
   {
+    "title": "Tiger 3",
+    "category": "Bollywood Hindi Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784747518093.jpg",
+    "rating": "5.7",
+    "link": "go:mm649",
+    "cast": "Salman Khan, Katrina Kaif, Emraan Hashmi, Simran, Revathi"
+  },
+  {
     "title": "Sharmeelee",
     "category": "Bollywood Classic Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784747395973.jpg",
