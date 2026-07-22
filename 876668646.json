@@ -1,5 +1,13 @@
 [
   {
+    "title": "Bairaag",
+    "category": "Bollywood Classic Movie",
+    "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784746498523.jpg",
+    "rating": "8.3",
+    "link": "go:mm641",
+    "cast": "Dilip Kumar, Saira Banu, Leena Chandavarkar, Prem Chopra, Madan Puri"
+  },
+  {
     "title": "Haqeeqat",
     "category": "Bollywood Classic Movie",
     "poster": "https://cdn.jsdelivr.net/gh/appcreator05/my12@main/images/1784746417174.jpg",
