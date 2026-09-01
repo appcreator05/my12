@@ -1,0 +1,66 @@
+const allMovies = [
+    {
+        "title": "Hogi Pyaar Ki Jeet 1999",
+        "category": "Bollywood 90s Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1787517459743.jpg",
+        "rating": "5.600",
+        "link": "go:m1",
+        "cast": "Ajay Devgn, Neha, Arshad Warsi, Mayuri Kango, Arjun, Ketki Dave, Mohan Joshi, Adi Irani, Shiva Rindani, Raza Murad"
+    },
+    {
+        "title": "My Best Friend, His Girlfriend and Me 2026",
+        "category": "Bengali Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1787689131891.jpg",
+        "rating": "5.980",
+        "link": "https://github.com/appcreator05/fi/releases/download/files/Bury-the-Devil-.2026.mp4",
+        "cast": "Kostja Ullmann, Janina Uhse, David Kross, Ferdinand Hofer, Clara Immel, Mira Huber, Larissa Sirah Herden, Anna Herrmann, Timon Ballenberger, Thomas Heinze"
+    },
+    {
+        "title": "Anand Ashram 1977",
+        "category": "Bengali Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1787738846257.jpg",
+        "rating": "8.000",
+        "link": "go:mm105",
+        "cast": "Ashok Kumar, Uttam Kumar, Sharmila Tagore, Rakesh Roshan, Moushumi Chatterjee, Utpal Dutt, Anita Guha"
+    },
+    {
+        "title": "The Bay 2026",
+        "category": "Bollywood Hindi Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1788120721884.jpg",
+        "rating": "5.800",
+        "link": "go:123",
+        "cast": "Francesca Eastwood, Dani Oliveros, Alexander Wraith, Ta'imua, Calan Scherer, Destiny Benner"
+    },
+    {
+        "title": "The Bay 2026",
+        "category": "Bollywood Hindi Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1788120721884.jpg",
+        "rating": "5.800",
+        "link": "go:ho:123",
+        "cast": "Francesca Eastwood, Dani Oliveros, Alexander Wraith, Ta'imua, Calan Scherer, Destiny Benner"
+    },
+    {
+        "title": "The Bay 2026",
+        "category": "Bollywood Hindi Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1788120721884.jpg",
+        "rating": "5.800",
+        "link": "go:ho:2222",
+        "cast": "Francesca Eastwood, Dani Oliveros, Alexander Wraith, Ta'imua, Calan Scherer, Destiny Benner"
+    },
+    {
+        "title": "The Last Sunrise 2026",
+        "category": "Bollywood Hindi Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1788121606234.jpg",
+        "rating": "6.981",
+        "link": "",
+        "cast": "Maia Reficco, Eva Longoria, Fernando Lindez, Chloé Sweetlove, Andrés Velencoso, Stefanie Martini, Sabrina Bartlett, Àlex Peracaula, Molly B. Thomas, Razan Nassar"
+    },
+    {
+        "title": "Evil Dead Burn 2026",
+        "category": "Bollywood Hindi Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1788122147137.jpg",
+        "rating": "7.784",
+        "link": "go:111",
+        "cast": "Souheila Yacoub, Tandi Wright, Hunter Doohan, Luciane Buchanan, Erroll Shand, Maude Davey, George Pullar, Greta van den Brink, Keanu Karim, Victory Ndukwe"
+    }
+];
