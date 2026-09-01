@@ -1,6 +1,22 @@
 const allMovies = [
     {
         "title": "Hogi Pyaar Ki Jeet 1999",
+        "category": "Bollywood 70s Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1787517459743.jpg",
+        "rating": "5.600",
+        "link": "go:m1",
+        "cast": "Ajay Devgn, Neha, Arshad Warsi, Mayuri Kango, Arjun, Ketki Dave, Mohan Joshi, Adi Irani, Shiva Rindani, Raza Murad"
+    },
+    {
+        "title": "Hogi Pyaar Ki Jeet 1999",
+        "category": "Bollywood 80s Movie",
+        "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1787517459743.jpg",
+        "rating": "5.600",
+        "link": "go:m1",
+        "cast": "Ajay Devgn, Neha, Arshad Warsi, Mayuri Kango, Arjun, Ketki Dave, Mohan Joshi, Adi Irani, Shiva Rindani, Raza Murad"
+    },
+    {
+        "title": "Hogi Pyaar Ki Jeet 1999",
         "category": "Bollywood 90s Movie",
         "poster": "https://cdn.jsdelivr.net/gh/appcreator05/768@main/5/1787517459743.jpg",
         "rating": "5.600",
